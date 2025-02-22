@@ -5,15 +5,16 @@
 
 header {
     display:flex;
-
-}
-
-nav {
-    display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
+
+
 
 .nav-items {
+    display: flex;
+
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -21,5 +22,22 @@ nav {
 }
 
 .nav-bar-right {
-    text-align: right;
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    align-items: center;
+}
+
+.navbar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.kirmizi {
+    color:#FF0000
+}
+
+.main-content {
+    width: 50%;
 }
