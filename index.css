@@ -90,13 +90,13 @@ nav a {
 }
 
 .top {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 .top h4 {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .popular-items {
@@ -104,16 +104,14 @@ nav a {
   overflow-x: auto;
   gap: 3.5rem;
   padding: 10px;
-  
 }
 
-
 .movie-card-kucuk {
-    min-width:30%;
-    text-align: left;
-    border: 1px solid black;
-    padding: 20px 5px;
-  }
+  min-width: 30%;
+  text-align: left;
+  border: 1px solid black;
+  padding: 20px 5px;
+}
 
 .play-btn {
   background-color: #ff0000;
@@ -122,6 +120,7 @@ nav a {
   border-radius: 5px;
   padding: 10px 20px 10px 10px;
   margin: 0;
+  cursor: pointer;
 }
 
 footer {
@@ -141,10 +140,6 @@ footer nav {
 .appstore-logo img {
   width: 100px;
   height: 32px;
-}
-
-.playbtncontainer {
-  margin: 0;
 }
 
 .footer-leftside {
