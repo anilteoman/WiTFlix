@@ -99,7 +99,7 @@ nav a {
   font-size: 0.75rem;
 }
 
-.popular-items {
+.movie-row {
   display: flex;
   overflow-x: auto;
   gap: 3.5rem;
@@ -110,7 +110,7 @@ nav a {
   min-width: 30%;
   text-align: left;
   border: 1px solid black;
-  padding: 20px 5px;
+  padding: 50px 10px;
 }
 
 .play-btn {
@@ -196,10 +196,7 @@ footer nav {
     align-items: center;
   }
 
-  .foryou-items {
-    gap: 100px;
-  }
-  .popular-items {
+  .movie-row {
     gap: 100px;
   }
 }
