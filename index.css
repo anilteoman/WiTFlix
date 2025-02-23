@@ -26,9 +26,9 @@ h1 {
 }
 
 .nav-items {
-  display: flex;
-  gap: 20px;
-}
+    display: flex;
+    gap: 20px;
+  }
 
 .nav-bar-right {
   display: flex;
@@ -61,7 +61,7 @@ nav a {
   padding: 5px;
 }
 
-.main-content .kirmizi {
+.kirmizi {
   color: #ff0000;
   font-weight: bold;
 }
@@ -79,10 +79,7 @@ nav a {
 .main-content .play-btn {
   background-color: #ff0000;
   color: white;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  text-align: left;
   border-radius: 5px;
   padding: 10px 50px 10px 10px;
   cursor: pointer;
