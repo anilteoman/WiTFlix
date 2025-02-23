@@ -1,7 +1,4 @@
-/*** {
-  border: 1px dashed gray;
-   kutular için border  
-}**/
+
 body {
   font-family: Montserrat;
 }
@@ -30,7 +27,7 @@ h1 {
 }
 
 .nav-items {
-  display: flex;
+    display: flex;
   gap: 20px;
 }
 
@@ -96,47 +93,44 @@ nav a {
 .popular-items {
   display: flex;
   overflow-x: auto;
-  gap: 15px;
+  gap: 60px;
   padding: 10px;
   max-width: 100%;
-
-  margin: 0;
 }
 
 .foryou-items {
   display: flex;
   overflow-x: auto;
-  gap: 15px;
+  gap: 60px;
   padding: 10px;
   max-width: 100%;
-
-  margin: 0;
 }
 
 .movie-card-kucuk {
   min-width: 30%;
-  gap: 10px;
   text-align: left;
   border: 1px solid black;
   padding: 20px 5px;
 }
 
+.play-btn {
+    background-color: #ff0000;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 10px;
+    margin: 0;
+  }
+
 .footer-container {
-  display: flex;
+    display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 0;
 }
 
-.footer-leftside {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  flex: 2;
-  font-size: 0.75rem;
-  padding: 0;
-}
+
 
 footer nav {
   display: flex;
@@ -153,14 +147,16 @@ footer nav {
   margin: 0;
 }
 
-.play-btn {
-  background-color: #ff0000;
-  text-align: left;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 20px 10px 10px;
-  margin: 0;
-}
+
+
+.footer-leftside {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 2;
+    font-size: 0.75rem;
+    padding: 30px 0;
+  }
 
 .socials {
   font-size: 0.75rem;
@@ -188,6 +184,8 @@ footer nav {
     padding: 50px 10px;
   }
 
+
+
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -206,7 +204,16 @@ footer nav {
     justify-content: center;
     align-items: center;
   }
-  .movie-card-kucuk {
-    width: 50%;
+
+
+
+  .foryou-items {
+    gap:100px;
+
   }
+  .popular-items {
+    gap:100px;
+
+  }
+
 }
